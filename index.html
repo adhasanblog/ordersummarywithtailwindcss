@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="dist/style.css">
     <title>Document</title>
 </head>
-<body class="bg-vector bg-blue-400 bg-no-repeat bg-contain bg-fixed">
-    <div class="flex flex-col w-max bg-white justify-center my-20 mx-auto rounded-2xl">
+<body class="bg-vector sm:bg-mobile bg-blue-400 bg-no-repeat bg-contain bg-fixed ">
+    <div class="flex flex-col flex-grow w-max sm:w-11/12 sm:h-auto bg-white justify-center my-20 mx-auto rounded-2xl">
         <img class="rounded-t-2xl" src="dist/img/illustration-hero.svg"/>
         <h1 class="text-3xl font-bold text-center mt-10 mb-5 text-blue-300">Order Sumary</h1>
         <p class="text-base text-center mb-5">
@@ -16,12 +16,12 @@
             <br/> audiobooks, and podcasts on any device
             <br/> anywhere you like!
         </p>
-        <div class="bg-blue-100 h-auto mx-16 rounded-xl mb-10 flex flex-row flex-auto justify-between">
+        <div class="bg-blue-100 h-auto mx-16 sm:mx-5 rounded-xl mb-10 flex flex-row flex-auto justify-between sm:w-auto">
                 <img class="p-5" src="dist/img/icon-music.svg"/>
                 <p class="py-5 pr-5 text-blue-300 font-bold">Annual Plan<br/>$59.99/year</p>
                 <a class="p-5 m-auto text-blue-200 font-bold" href="#">Change</a>
         </div>
-        <a class="bg-blue-200 text-white p-3 mx-16 rounded-xl text-center font-bold shadow-lg mb-6" href="#">Proceed to Payment</a>
+        <a class="bg-blue-200 text-white p-3 mx-16 sm:mx-5 rounded-xl text-center font-bold shadow-lg mb-6" href="#">Proceed to Payment</a>
         <a class="text-blue-300 font-bold text-center mb-6" href="#">Cancel Order</a>
     </div>
 </body>

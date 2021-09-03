@@ -4,6 +4,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': {
+        'max': '375px'
+      },
+    },
     fontFamily: {
       sans: [
         "'Red Hat Display', sans-serif"
